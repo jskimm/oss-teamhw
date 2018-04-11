@@ -17,7 +17,7 @@ double sum(double a, double b) // ±èÁö¼·
 
 double sub(double a, double b) // ÀÌ»óÈñ
 {
-
+	return (a - b);
 }
 
 double mul(double a, double b) // ¾çÀ±¿­
