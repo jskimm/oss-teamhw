@@ -22,7 +22,7 @@ double sub(double a, double b) // ÀÌ»óÈñ
 
 double mul(double a, double b) // ¾çÀ±¿­
 {
-	// test
+	return (a * b);
 }
 
 double div(double a, double b) // Æ¼¿£¾ó½Ö
