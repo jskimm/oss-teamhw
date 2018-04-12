@@ -1,3 +1,4 @@
+#pragma warning(disable:4996)
 #include <stdio.h>
 
 double sum(double, double); // ±èÁö¼·
@@ -10,11 +11,10 @@ int main() {
 	printf("input x > "); scanf("%lf", &x);
 	printf("input y > "); scanf("%lf", &y);
 
-	printf("x+y=%lf", sum(x,y));
-	printf("x+y=%lf", sub(x, y));
-	printf("x+y=%lf", mul(x, y));
-	printf("x+y=%lf", div(x, y));
-
+	printf("x+y=%.2lf\n", sum(x,y));
+	printf("x-y=%.2lf\n", sub(x, y));
+	printf("x*y=%.2lf\n", mul(x, y));
+	printf("x/y=%.2lf\n", div(x, y));
 
 	return 0;
 }
