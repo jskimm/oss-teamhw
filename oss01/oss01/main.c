@@ -6,7 +6,16 @@ double mul(double, double); // ¾çÀ±¿­
 double div(double, double); // Æ¼¿£¾ó½Ö
 
 int main() {
-	double x, y, result;
+	double x, y;
+	printf("input x > "); scanf("%lf", &x);
+	printf("input y > "); scanf("%lf", &y);
+
+	printf("x+y=%lf", sum(x,y));
+	printf("x+y=%lf", sub(x, y));
+	printf("x+y=%lf", mul(x, y));
+	printf("x+y=%lf", div(x, y));
+
+
 	return 0;
 }
 
