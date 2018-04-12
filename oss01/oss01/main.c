@@ -1,10 +1,10 @@
 #pragma warning(disable:4996)
 #include <stdio.h>
 
-double sum(double, double); // ±èÁö¼·
-double sub(double, double); // ÀÌ»óÈñ
-double mul(double, double); // ¾çÀ±¿­
-double div(double, double); // Æ¼¿£¾ó½Ö
+double sum(double, double); // ê¹€ì§€ì„­
+double sub(double, double); // ì´ìƒí¬
+double mul(double, double); // ì–‘ìœ¤ì—´
+double div(double, double); // í‹°ì—”ì–¼ìŒ
 
 int main() {
 	double x, y;
@@ -19,22 +19,23 @@ int main() {
 	return 0;
 }
 
-double sum(double a, double b) // ±èÁö¼·
+double sum(double a, double b) // ê¹€ì§€ì„­
 {
 	return (a + b);
 }
 
-double sub(double a, double b) // ÀÌ»óÈñ
+double sub(double a, double b) // ì´ìƒí¬
 {
 	return (a - b);
 }
 
-double mul(double a, double b) // ¾çÀ±¿­
+double mul(double a, double b) // ì–‘ìœ¤ì—´
 {
 	return (a * b);
 }
 
-double div(double a, double b) // Æ¼¿£¾ó½Ö
+double div(double a, double b) // í‹°ì—”ì–¼ìŒ
 {
+	return(a / b);
 
 }
