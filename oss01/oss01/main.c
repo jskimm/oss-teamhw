@@ -12,7 +12,7 @@ int main() {
 
 double sum(double a, double b) // ±èÁö¼·
 {
-
+	return (a + b);
 }
 
 double sub(double a, double b) // ÀÌ»óÈñ
